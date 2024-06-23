@@ -21,7 +21,7 @@ print(f"If I add {age}, {height}, and {weight} I get {total}.")
 # converting variable's to pounds and inches. 
 
 height_inches = height / 2.54 
-weight_pounds = weight * 2.20462
+weight_pounds = weight * 2.205
 
 print(f"His weight in pounds is {weight_pounds}. Not bad, huh?")
 print(f"His height in inches is {height_inches}. He wishes he was a little bit taller.")
