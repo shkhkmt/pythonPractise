@@ -1,7 +1,7 @@
 # Declaring variables for salary calculation 
-print("How much overtime did you work this month?")
+print("How much overtime did you work this month?", end='')
 overTime = float(input()) * 2.0
-print("How many hours did you work this month?")
+print("How many hours did you work this month?", end='')
 hours = float(input())
 deductions = 4700.0
 rate = 103.14
