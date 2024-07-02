@@ -1,8 +1,9 @@
 from sys import argv
-#read the WYSS section for how to run this 
+
+#naming the variables that the script will accept.
 script, first, second, third = argv 
 
-
+#printing the arguents from the script into outputs in the terminal 
 print("The script is called:", script)
 print("Your first variable is:", first)
 print("Your second variable is:", second)
