@@ -1,6 +1,6 @@
 # Declaring variables for salary calculation
  
-print:wq("How much overtime did you work this month? ", end='')
+print("How much overtime did you work this month? ", end='')
 overTime = float(input()) * 2.0
 print("How many hours did you work this month? ", end='')
 hours = float(input())
