@@ -1,3 +1,1 @@
-Don't forget that you're doing this for a reason. 
-Each line of code is a rep towards the future you're building 
-Honour the promises you've made to yourself, bro. 
+This is the boilerplate for using strings, formats, and escaps to pr execute ca target.write command without repition. n\target.write(f"{line1}\n{line2}\n{line3}")n\f = format, {} = format to string, \n = escape to new line, target.write() = calling target.write function to write inputs to the file. 
