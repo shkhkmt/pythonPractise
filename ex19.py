@@ -19,6 +19,10 @@ cheeseAndCrackers(10 + 20, 5 + 6)
 print("And we can combine the two, variables and math:")
 cheeseAndCrackers(amountOfCheese + 100, amountOfCrackers + 1000)
 
+print("We can take inputs to our functions in the command line: ")
+amountOfCheese = float(input())
+amountOfCrackers = float(input())
+print(f"You have {amountOfCheese} cheeses")
 '''
 This shows the different ways we can give a function i.e., cheeseAndCrackers.py the values it needs to print them.
 
