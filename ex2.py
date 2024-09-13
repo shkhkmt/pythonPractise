@@ -1,9 +1,7 @@
-# A comment, this is so you can read your program later. 
-# Anything after the # is ignored by python. 
+# Comments start with a pound sign. Content after the sign is deleted.
 
-print("I could have code like this.") # and the comment after is ignored 
+print("You can do whatever you like on a line and then comment after it like so.") # and whatever comes after the pound wont figure in the code.
 
-# You can also use a comment to 'disable' or comment out code: 
-# print("this won't run.")
+# Remember that you can use this to comment out code if a module isn't working or you want to exclude a line of code.
 
-print("This will run.")
+print(22/7) #this will still print pi.
