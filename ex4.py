@@ -1,20 +1,21 @@
-# Creating known variables and assigning values to them. 
+# Creating known variables and assigning values to them.
 cars = 100
-space_in_a_car = 4
-drivers = 30 
-passengers = 90 
+spaceInACar = 4.0
+drivers = 30
+passengers = 90
 
 # Creating the unknown variables and creating operations to calculate them
 
-cars_not_driven = cars - drivers 
-cars_driven = drivers 
-carpool_capacity = cars_driven * space_in_a_car
-average_passengers_per_car = passengers / cars_driven
+carsNotDriven = cars - drivers
+carsDriven = drivers
+carpoolCapacity = carsDriven * spaceInACar
+averagePassengersPerCar = passengers / carsDriven
 
 # Printing the console output
+
 print("There are", cars, "cars available.")
 print("There are only", drivers, "drivers available.")
-print("There will be", cars_not_driven, "empty cars today.")
-print("We can transport", carpool_capacity, "people today")
+print("There will be", carsNotDriven, "empty cars today.")
+print("We can transport", carpoolCapacity, "people today")
 print("We have", passengers, "to carpool today.")
-print("We need to put about", average_passengers_per_car, "in each car.")
+print("We need to put about", averagePassengersPerCar, "in each car.")
