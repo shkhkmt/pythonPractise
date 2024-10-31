@@ -1,27 +1,17 @@
-name = 'Mangaliso S. Ndabeni'
-age = 31 # Not a lie 
-height = 181 # centimeters 
-weight = 90 # kgs 
-eyes = 'Brown'
-teeth = 'White'
-hair = 'Black'
+myName = ')Mangaliso Ndabeni'
+myAge = 31 #random reminder that you can comment at the end of a line  like this.
+myHeight = 181 #centimeters
+myEyes = 'Brown'
+myTeeth = 'White'
+myHair = 'Black'
+myWeight = 85
 
-print(f"Let's talk about {name}.")
-print(f"He's {height} centimeters tall.")
-print(f"He weighs {weight} kilograms")
-print("Actually, that's not too heavy.")
-print(f"He's got {eyes} eyes and {hair} hair. Obviously.")
-print(f"His teeth are {teeth}, depending on the coffee.")
+print(f"Lets's talk about {myName}.")
+print(f"He's {myHeight} centimeters tall.")
+print(f"He weighs {myWeight} kilograms")
+print(f"Actually, that's not too heavy.")
+print(f"He's got {myEyes} eyes and {myHair} hair")
+print(f"His teeth are usually {myTeeth}, depending on the coffee.")
 
-# this line is tricky, try to get it exactly right. 
-
-total = age + height + weight
-print(f"If I add {age}, {height}, and {weight} I get {total}.")
-
-# converting variable's to pounds and inches. 
-
-height_inches = height / 2.54 
-weight_pounds = weight * 2.205
-
-print(f"His weight in pounds is {weight_pounds}. Not bad, huh?")
-print(f"His height in inches is {height_inches}. He wishes he was a little bit taller.")
+total = myAge + myHeight + myWeight
+print(f"If I add {myAge}, {myHeight}, and {myWeight} I get {total}.")
