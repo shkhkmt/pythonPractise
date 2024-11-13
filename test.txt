@@ -1,1 +1,1 @@
-Testing the outputs. n\This seems to work fine. n\Remember to comment the code later on. 
+Testing the outputs. This seems to work fine. Remember to comment the code later on.

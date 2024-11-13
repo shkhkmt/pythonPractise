@@ -6,6 +6,6 @@ height = input()
 print("How much do you weigh?", end='')
 weight = input()
 
-# Printing inputs to a string using formatter. 
+# Printing inputs to a string using formatter.
 
 print(f"So, you're {age} old, {height} tall, and {weight} heavy.")

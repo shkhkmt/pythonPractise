@@ -1,4 +1,4 @@
-from sys import argv 
+from sys import argv
 
 script, userName, pseudonym = argv
 prompt = '> '
@@ -9,20 +9,20 @@ nickName = input(prompt)
 print(f"{nickName}? that's cool. I wonder how you got it?")
 backStory = input(prompt)
 
-print(f"Do you like me {userName}?") 
-likes = input(prompt) 
+print(f"Do you like me {userName}?")
+likes = input(prompt)
 
 print(f"Where do you live {userName}?")
-lives = input(prompt) 
+lives = input(prompt)
 
-print("What kind of computer do you have?") 
+print("What kind of computer do you have?")
 
-computer = input(prompt) 
+computer = input(prompt)
 
 print(f"""
 Alright, so you said {likes} about liking me. You said you go by, {nickName}.
 And that you got this name from {backStory}.
-You live in {lives}. South Africa's biggest city. 
-And you have a {computer} computer. Which isn't relevant to anything. 
+You live in {lives}. South Africa's biggest city.
+And you have a {computer} computer. Which isn't relevant to anything.
 """)
 
